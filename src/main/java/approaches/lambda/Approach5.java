@@ -13,7 +13,16 @@ public class Approach5 {
     }
 
     private void run() {
-        printPersons(Data.getRoster(), (Person p) -> p.getGender() == Person.Sex.MALE
+//        printPersons(Data.getRoster(), (Person p) -> p.getGender() == Person.Sex.MALE
+//                && p.getAge() >= 18
+//                && p.getAge() <= 25
+//        );
+
+
+        //  You can omit the data type of the parameters in a lambda expression. In addition,
+        // you can omit the parentheses if there is only one parameter.
+        // For example, the following lambda expression is also valid:
+        printPersons(Data.getRoster(), p -> p.getGender() == Person.Sex.MALE
                 && p.getAge() >= 18
                 && p.getAge() <= 25
         );
