@@ -8,7 +8,6 @@ import java.util.List;
 
 public class Approach3 {
     public static void main(String[] args) {
-
         Approach3 app = new Approach3();
         app.run();
     }
@@ -21,7 +20,6 @@ public class Approach3 {
         for (Person p : roster) {
             if (tester.test(p)) {
                 p.printPerson();
-
             }
         }
     }
