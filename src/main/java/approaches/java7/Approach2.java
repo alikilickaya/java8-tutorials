@@ -1,4 +1,4 @@
-package main.java.java7;
+package main.java.approaches.java7;
 
 import main.java.model.Person;
 import main.java.util.Data;

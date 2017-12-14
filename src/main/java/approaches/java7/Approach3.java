@@ -1,4 +1,4 @@
-package main.java.java7;
+package main.java.approaches.java7;
 
 import main.java.function.CheckPerson;
 import main.java.model.Person;
